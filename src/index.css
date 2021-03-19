@@ -11,3 +11,25 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.replying-to {
+  border: none;
+  background: transparent;
+  margin: 0;
+  padding: 0;
+  color: #969696;
+  cursor: pointer;
+}
+
+.after-icons {
+  font-size: smaller;
+  padding: .3rem;
+}
+.tweet:hover {
+  text-decoration: none;
+}
+
+.tweet .tweet__text {
+  color: #333;
+  cursor: unset;
+}
